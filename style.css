@@ -66,7 +66,6 @@ body{
     width: 30%;
 
 }
-
 .section-2 .main-camera{
     width: 440px;
 height: 414px;
@@ -74,16 +73,11 @@ height: 414px;
     cursor: pointer;
     transition: transform 0.8s;
 }
-
 .section-2 .main-camera:hover{
     transform: scale(1.2);
 }
 
 /* section-2 style end */
-/* hr{
-    color: gray;
-    margin-bottom: 10px;
-} */
 
 /* section-3 start */
 
@@ -91,14 +85,10 @@ height: 414px;
     display: flex;
     justify-content: center;
 }
-
-
 .card-container{
     display: grid;
     grid-template-columns: repeat( 3, 1fr);
     grid-gap: 30px;
-   
-  
 }
 .section-3 h1{
     color: #3A3A3A;
@@ -160,63 +150,18 @@ height: 414px;
 }
 /* section-3 end */
 
-/* section-4 style start */
-.section-4{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding-bottom: 10px;
-}
-
-.section-4 .gear-img{
-    width: 30%;
-}
-
-.section-4 .gear-img img{
-    width: 404px;
-    height: 270px;
-}
-.section-4 .featured-product{
-    width: 50%;
-    margin-top: 25px;
-}
-
-.featured-product h1{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    /* line-height: 70px; */
-    margin-bottom: 16px;
-    color: #000000;  
-}
-
-.featured-product p{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    color:#3A3A3A;
-
-}
-.section-4 .btn-2{
-    border-radius: 5px;
-}
-/* section-4 style end */
-
-
 /* section-5  style start */
 .section-5{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 50px;
    
 }
 .communication-icon{
     display: flex;
     margin-bottom: 50px;
     width: 30%;
-   
+    
 }
 .shop{
     width: 20%;
@@ -235,12 +180,9 @@ height: 414px;
     color: orange;
     font-size: 30px;   
 }
-
 .button{
     width: 50%;
 }
-
-
 .button .btn-buy{
     width: 300px;
    padding: 20px 20px;
@@ -263,7 +205,6 @@ height: 414px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
-
 }
 /* section-5  style end */
 
@@ -277,7 +218,6 @@ footer{
     justify-content: center;
     align-items: center;
 }
-
 .footer-container h1{
     font-family: Poppins;
     font-weight: bold;
@@ -290,15 +230,11 @@ footer{
     text-align: center;
     margin-top: 8px;
 }
-
 .social-icon{
    text-align: center;
    margin-top: 30px;
    cursor: pointer;
-  
- 
 }
-
 .social-icon i{
     margin-left:12px;
     font-size: 30px;
@@ -306,17 +242,316 @@ footer{
     padding: 15px;
     border-radius: 50%;
 }
-
-
 /* footer style end */
 
-
-/*start responsive section-1*
-
 /*start responsive section-1*/
+@media only screen and (max-width: 600px) {
+    body {
+     width: 100%;
+    
+    }
+    .main-section{
+width: 100%;
+    }
+    .section-2{
+        display: flex;
+       flex-direction: column;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .section-2 .description{
+          width: 100%;
+        /* width: 329px;  */
+         margin-top: 80px;
+        text-align: center;
 
+    } 
+    .section-2 .description h1{
+        font-size: 30px;
+        line-height: 40px; 
+        margin-bottom: 16px;
+        }
+    .section-2 .description p{
+        font-size: 16px;
+        text-align: justify;
+        padding: 0 10px; 
+    }
+    .common-btn-style{
+        width: 150px;
+        height: 40px;
+        padding: 10px 10px;
+        font-size: 10px;
+        margin-top: 16px;
+         border: none;
+        cursor: pointer; 
+    }
+     .common-btn-style i{
+        margin-left: 5px;
+       
+    }
+    .section-2 .main-image{
+        width: 70%;
+    
+    }
+    .section-2 .main-camera{
+         width: 100%; 
+        /* width: 329px; */
+    height: auto;
+        margin-top: 20px;
+         margin-left: 50px; 
+    }
+/* section-3 start */
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+}
+.section-3 h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top:30px ;
+    margin-bottom: 20px;
+}
+ .card{
+     width: 329px;
+    height:476px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+} 
 
+/* section-4 style start */
+.section-4{
+    display: flex;
+   flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
 
+.section-4 .gear-img{
+    width:70%; 
+}
+
+.section-4 .gear-img img{
+    width:80%;
+     margin:0 30% ;
+}
+.section-4 .featured-product{
+     width:100%; 
+    margin-top: 20px;
+     text-align: center; 
+     margin: auto; 
+
+}
+ 
+.featured-product h1{
+    font-size: 18px;
+    margin-bottom: 16px;
+    color: #000000;    
+}
+.featured-product p{
+    text-align: justify;
+} 
+.section-4 .btn-2{
+    border-radius: 5px;
+}
+/* section-4 style end */
+
+/* section-5  style start */
+.section-5{
+    display: flex;
+  flex-direction: column;
+   
+}
+.communication-icon{
+    display: flex;
+    margin-bottom: 30px;
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+}
+.shop{
+    width: 30%;
+    cursor: pointer;
+    margin-left: 30%;
+}
+.shop i{
+    color: orange;
+    font-size: 30px;
+}
+ .chat{
+    cursor: pointer;
+    width: 30%;
+    margin-left: 10%; 
+}
+
+.button{
+    width: 100%;
+ margin-left: 15%;
+    
+}
+.button .btn-buy{
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+ .button .btn-cart{
+    margin-bottom: 20px;
+} 
+
+  }
+
+/*end responsive section-1*/
+
+@media (max-width: 992px)and (min-width:599px) {
+    body {
+        width: 100%;
+       }
+       .main-section{
+   width: 100%;
+       }
+       .section-2{
+           display: flex;
+          flex-direction: column;
+           margin-top: 100px;
+           margin-bottom: 100px;
+       }
+       .section-2 .description{
+             width: 100%;
+           /* width: 329px;  */
+            margin-top: 80px;
+           text-align: center;
+   
+       } 
+       .section-2 .description h1{
+           font-size: 30px;
+           line-height: 40px; 
+           margin-bottom: 16px;
+           }
+       .section-2 .description p{
+           font-size: 16px;
+           text-align: justify;
+           padding: 0 10px; 
+       }
+       .common-btn-style{
+           width: 150px;
+           height: 40px;
+           padding: 10px 10px;
+           font-size: 10px;
+           margin-top: 16px;
+            border: none;
+           cursor: pointer; 
+       }
+        .common-btn-style i{
+           margin-left: 5px;
+          
+       }
+       .section-2 .main-image{
+           width: 70%;
+       
+       }
+       .section-2 .main-camera{
+            width: 100%; 
+           /* width: 329px; */
+       height: auto;
+           margin-top: 20px;
+            margin-left: 50px; 
+       }
+   /* section-3 start */
+   .card-container{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       grid-gap: 30px;
+   }
+   .section-3 h1{
+       text-align: center;
+       font-size: 30px;
+       margin-top:30px ;
+       margin-bottom: 20px;
+   }
+    .card{
+        width: 329px;
+       height:476px;
+       border-radius: 5px;
+       padding-bottom: 10px;
+   } 
+   
+   /* section-4 style start */
+   .section-4{
+       display: flex;
+      flex-direction: column;
+       margin-top: 30px;
+       margin-bottom: 100px;
+   }
+   
+   .section-4 .gear-img{
+       width:70%; 
+   }
+   
+   .section-4 .gear-img img{
+       width:80%;
+        margin:0 30% ;
+   }
+   .section-4 .featured-product{
+        width:100%; 
+       margin-top: 20px;
+        text-align: center; 
+        margin: auto; 
+   
+   }
+    
+   .featured-product h1{
+       font-size: 18px;
+       margin-bottom: 16px;
+       color: #000000;    
+   }
+   .featured-product p{
+       text-align: justify;
+   } 
+   .section-4 .btn-2{
+       border-radius: 5px;
+   }
+   /* section-4 style end */
+   
+   /* section-5  style start */
+   .section-5{
+       display: flex;
+     flex-direction: column;
+      
+   }
+   .communication-icon{
+       display: flex;
+       margin-bottom: 30px;
+       width: 100%;
+       margin: auto;
+       margin-top: 30px;
+   }
+   .shop{
+       width: 30%;
+       cursor: pointer;
+       margin-left: 30%;
+   }
+   .shop i{
+       color: orange;
+       font-size: 30px;
+   }
+    .chat{
+       cursor: pointer;
+       width: 30%;
+       margin-left: 10%; 
+   }
+   
+   .button{
+       width: 100%;
+    margin-left: 15%;
+       
+   }
+   .button .btn-buy{
+      margin-top: 20px;
+      margin-bottom: 20px;
+   }
+    .button .btn-cart{
+       margin-bottom: 20px;
+   } 
+}
 
 
 
